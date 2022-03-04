@@ -1,7 +1,7 @@
 # Voice-Assistant-in-Python
 It's a simple voice assistant project using python language.
 
-Libraries you need to install,
+# Libraries you need to install,
 pip install SpeechRecognition
 pip install pyttsx3
 
