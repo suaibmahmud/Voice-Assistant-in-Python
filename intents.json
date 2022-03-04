@@ -1,0 +1,226 @@
+{
+    "intents":[
+        {
+            "tag":"greetings",
+            "patterns":[
+                "hello", 
+                "hi", 
+                "hey", 
+                "greetings", 
+                "what's up"
+            ],
+            "responses":[
+                "hello, what can I do for you?"
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":[
+                "who are you?",
+                "what are you?",
+                "what is your identity?",
+                "tell me something about you"
+            ],
+            "responses":[
+                "I'm a voice assistant, I can help you in gathering small informations like weather report, time, etc."
+            ]
+        },
+        {
+            "tag":"name",
+            "patterns":[
+                "what is your name?",
+                "tell me your name"    
+            ],
+            "responses":[
+                "I doesn't have a name. I'm just a voice assistant. My mission is to assist you."
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":[
+                "how are you?",
+                "how about you?",
+                "what is wrong with you?"
+            ],
+            "responses":[
+                "I'm fine sir, How about you?"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":[
+                "cya", 
+                "see you later", 
+                "goodbye", 
+                "I'm leaving", 
+                "have a good day", 
+                "bye",
+                "I want to exit",
+                "see ya"
+            ],
+            "responses":[
+                "goodbye, hope to see you soon"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":[
+                "time right now?",
+                "current time?",
+                "tell me the time",
+                "running time"
+            ],
+            "responses":[
+                "time"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":[
+                "today's date?",
+                "the date today?",
+                "current date?",
+                "the day today"
+            ],
+            "responses":[
+                "date"
+            ]
+        },
+        {
+            "tag":"weatherReport",
+            "patterns":[
+                "weather report of today",
+                "weather report of current day",
+                "today's weather report",
+                "current weather report",
+                "weather forcast"
+            ],
+            "responses":[
+                "weatherReport"
+            ]
+        },
+        {
+            "tag":"joke",
+            "patterns":[
+                "tell me a joke?",
+                "something funny",
+                "make me laugh"
+            ],
+            "responses":[
+                "jokes"
+            ]
+        },
+        {
+            "tag":"myLocation",
+            "patterns":[
+                "where we are right now?",
+                "where I am right now",
+                "our location",
+                "my location",
+                "our position",
+                "my position"
+            ],
+            "responses":[
+                "myLocation"
+            ]
+        },
+        {
+            "tag":"screenshot",
+            "patterns":[
+                "take a screenshot",
+                "capture the screen",
+                "capture the display"
+            ],
+            "responses":[
+                "screenshot"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":[
+                "search on wikipedia",
+                "want to know something from wikipedia",
+                "tell me something from wikipedia",
+                "open wikipedia"
+            ],
+            "responses":[
+                "wikipedia"
+            ]
+        },
+        {
+            "tag":"googleSearch",
+            "patterns":[
+                "search something on google",
+                "search on google",
+                "open google"
+            ],
+            "responses":[
+                "googleSearch"
+            ]
+        },
+        {
+            "tag":"calculation",
+            "patterns":[
+                "do some calculation",
+                "execute calculation",
+                "can you calculate?",
+                "want to sum something",
+                "execute addition",
+                "want to subtract something",
+                "execute subtraction",
+                "want to multiply something",
+                "execute multiply",
+                "want to divide something",
+                "execute division"
+            ],
+            "responses":[
+                "calculation"
+            ]
+        },
+        {
+            "tag":"note",
+            "patterns":[
+                "want to take a note",
+                "can you take a note",
+                "make a note",
+                "take notes"
+            ],
+            "responses":[
+                "notes"
+            ]
+        },
+        {
+            "tag":"playYT",
+            "patterns":[
+                "play"
+            ],
+            "responses":[
+                "playYT"
+            ]
+        },
+        {
+            "tag":"email",
+            "patterns":[
+                "compose an email",
+                "write an email",
+                "write a mail"
+            ],
+            "responses":[
+                "email"
+            ]
+        },
+        {
+            "tag":"shutdown",
+            "patterns":[
+                "I want to switched off my device",
+                "turn off the device",
+                "switched off the device",
+                "shutdown the pc",
+                "shut down the pc"
+            ],
+            "responses":[
+                "shutdown"
+            ]
+        }
+    ]
+}
